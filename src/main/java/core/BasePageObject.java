@@ -15,6 +15,7 @@ public abstract class BasePageObject {
 	protected WebDriver driver;
 
 	public BasePageObject(WebDriver driver) {
+
 		this.driver = driver;
 		PageFactory.initElements(this.driver, this);
 	}
